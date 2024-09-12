@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Text";
+  background-color:#dcd7f5;
+  font-size: 16px;
+  width: 420px;;
+}
+
+.man-container{
+  width: 96%;
+  margin: 5px 2%;
+}
+
+h1{
+  text-align: center;
+}
+
+.todo-list-css{
+  width: 100%;
+  margin: 5px 0%;
+  padding: 0;
+}
+
+.todo-line,
+.todo-section{
+  width: 98%;
+  padding: 5px 1%;
+  display: flex;
+}
+
+.todo-line{
+  display: grid;
+  grid-template-columns: 55% 25% 20%;
+ 
+ align-items:center
+}
+
+.todo-line p {
+  margin: 4px 0 ;
+  color: #475ec8;
+  font-weight: bold;
+}
+
+button{
+  font-family: inherit;
+  font-size: 16px;
+  margin: 0 center;
+  border: none;
+  border-radius: 4px;
+  background-color:#f9ca36;
+  color: #36427c;
+  font-weight: bold;
+  padding: 6px 13px;
+}
+
+.add-btn-css{
+  width: 43%;
+  margin: 0 0% 0 1%;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+.resetButton{
+  background-color:#475ec8;
+  color: #fff;
+  text-shadow: 0 0 2px black;
+  letter-spacing: .3px;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+.resetButton:hover{
+  background-color: #b2c3ee;
+  color:#475ec8;
+  text-shadow: none;
+}
+
+.clear-all-css{
+  width: 98%;
+  margin: 7px 1% 7px 1%;
+  padding: 5px 2%;
+  cursor: pointer;
+  font-size: 16px;
+  transition: .5s ease-in-out;
+}
+
+.todo-name-css,
+.input-date-css{
+  width: 90%;
+  margin: 5px 0;
+  padding: 7px 5%;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.input-date-css{
+  width: 44%
+}
+
+.todo-img-css{
+  width: 100%;
+  border:none;
+}
+
+.add-btn-css:hover,
+.clear-all-css:hover{
+  background-color: #849bf1;
+  color: #ffcc32;
+  text-shadow: 0 0 2px black;
+}
